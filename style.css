@@ -1,0 +1,187 @@
+body {
+  background-color: #fef8f5;
+}
+.navbar-nav {
+  margin-left: 15%;
+}
+.nav-item {
+  margin-right: 85px;
+}
+header {
+  background-image: url("/images/MicrosoftTeams-image.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.tx {
+  margin-top: 5%;
+  position: relative;
+  /* font-family: DM Serif Display; */
+  width: 47%;
+  margin-left: 20%;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.about-us {
+  margin-top: 50px;
+}
+.about-us p {
+  /* font-family: Rubik; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.bold {
+  background: #fcddd4;
+  font-weight: bold;
+}
+.how-to-apply img {
+  width: 500px;
+}
+.htap {
+  margin-top: 70px;
+}
+.faq {
+  background-image: url("/images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 1500px;
+}
+.gp-14 {
+  position: relative;
+  /* margin-right: 300px ; */
+}
+.faq-tx {
+  margin-top: 100px;
+}
+.faq-tx p {
+  font-family: DM Serif Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.faq button {
+  /* width:550px */
+  padding-right: 120px;
+}
+.faq.container.row {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.card {
+  width: 420px;
+}
+.pimg {
+  width: 60px;
+  max-width: 60px;
+  height: 60px;
+  margin-right: 5%;
+}
+.carousel-control-prev {
+  color: black;
+}
+.carousel-control-next {
+  color: black;
+}
+.footer {
+  background-image: url("/images/BG.png");
+  height: 100vh;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  width: 100%;
+}
+.social {
+  padding-left: 60%;
+}
+.social a {
+  color: tomato;
+}
+.trifaco{
+    max-width:170px;
+  
+    height: 40px;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .tx {
+    position: relative;
+
+    margin-left: 20%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    /* text-align: left; */
+    color: white;
+  }
+  .about-us p {
+    /* font-family: Rubik; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .faq-tx p {
+    font-family: DM Serif Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) and (min-width: 576px) {
+  .tx {
+    position: relative;
+
+    margin-left: 20%;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+  .about-us p {
+    /* font-family: Rubik; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .faq-tx p {
+    font-family: DM Serif Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
